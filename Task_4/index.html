@@ -16,7 +16,7 @@
       @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
     </style>
 
-    <title>Task 2</title>
+    <title>Main</title>
   </head>
   <body>
     <!-- I know this is pretty bad. But then again - I am a programmer not a designer 😅-->
@@ -43,10 +43,24 @@
       >
     </div>
 
-    <img
-      class="main-img"
-      src="https://media.discordapp.net/attachments/984988358163963957/987397425088069664/be0006cb-3d6d-4605-85b7-0d389648f046_dezm0n_httpss.mj.runOnNML9__infinite_spiral_of_colorful_smoke.png?width=671&height=671"
-    />
+    <div class="big-image-wrapper">
+      <img
+        class="big-image"
+        src="https://media.discordapp.net/attachments/984988358163963957/987397425088069664/be0006cb-3d6d-4605-85b7-0d389648f046_dezm0n_httpss.mj.runOnNML9__infinite_spiral_of_colorful_smoke.png?width=671&height=671"
+      />
+      <img
+        class="big-image"
+        src="https://media.discordapp.net/attachments/989265640869204028/990773244124606514/957cb240-1836-4542-b5fb-f796a169f352_DavidH_milky_way.png?width=702&height=702"
+      />
+      <img
+        class="big-image"
+        src="https://media.discordapp.net/attachments/941582479117127680/990900479611519007/e45da484-3431-48d9-9ff5-aa2f51c88513_JasonBrown0624522_cube_box_with_nebula_insideshape_cleanFour-dimensional_space3dhyper_detailedoctane_render_8k.png?width=702&height=702"
+      />
+      <div>
+        <button class="previous-btn">Previous</button>
+        <button class="next-btn">Next</button>
+      </div>
+    </div>
     <hr />
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54084.904955242295!2d34.7622266125474!3d32.08799940295841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4ca6193b7c1f%3A0xc1fb72a2c0963f90!2sTel%20Aviv-Yafo!5e0!3m2!1sen!2sil!4v1655724244727!5m2!1sen!2sil"
@@ -84,7 +98,11 @@
     </section>
 
     <div class="sidebar">
-      <img src="https://picsum.photos/50/50" />
+      <input
+        type="image"
+        class="sidebar-image"
+        src="https://picsum.photos/100/100"
+      />
       <p>Decipher</p>
       <a href="#">Home</a>
       <a href="./html/about.html">About</a>
@@ -92,5 +110,7 @@
       <a href="#">WIP</a>
       <a class="disabled" href="#">Disabled</a>
     </div>
+
+    <script src="./js/index.js"></script>
   </body>
 </html>

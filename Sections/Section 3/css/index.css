@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+.page-wrapper {
+  background-color: red;
+  position: relative;
+}
+
+.sidebar {
+  background-color: aqua;
+  width: 200px;
+  display: flex;
+  position: fixed;
+  left: 0;
+  height: 100%;
+}
+
+.mainSection {
+  position: absolute;
+  background-color: blue;
+  height: 100vh;
+  left: 200px;
+  width: calc(100% - 200px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+button {
+  margin-right: auto;
+  align-content: center;
+}

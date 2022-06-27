@@ -217,12 +217,6 @@ form input {
   bottom: 18%;
 }
 
-form button {
-  position: absolute;
-  left: 62%;
-  bottom: 17%;
-}
-
 .enabled:hover {
   transition: transform 1s;
   transform: scale(120%);
@@ -307,7 +301,26 @@ form:not(:focus-within) {
   transition: all 2s;
 }
 
-.main-img {
+.big-image-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  padding-bottom: 50px;
+}
+
+.big-image-wrapper button {
+  position: relative;
+  top: 30px;
+  right: 168px;
+}
+
+.big-image {
   height: 200px;
   width: 200px;
+}
+
+.sidebar-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
 }
